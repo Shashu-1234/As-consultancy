@@ -1,6 +1,9 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "rewrites": [
+    {"source": "/assets/images/logo.png", "destination": "/assets/images/logo.svg"}
+  ],
   "headers": [{
     "source": "/(.*)",
     "headers": [
